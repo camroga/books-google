@@ -35,6 +35,7 @@ proguard/
 
 # Android Studio captures folder
 captures/
+/captures
 
 # IntelliJ
 *.iml
@@ -82,4 +83,3 @@ lint/intermediates/
 lint/generated/
 lint/outputs/
 lint/tmp/
-# lint/reports/
