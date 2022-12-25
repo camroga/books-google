@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">books-google</string>
+    <string name="title_activity_book">books-google</string>
 </resources>
