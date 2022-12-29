@@ -25,8 +25,8 @@ import io.reactivex.rxjava3.schedulers.Schedulers
 
 class BookActivity : ComponentActivity() {
 
-    override fun onPostCreate(savedInstanceState: Bundle?) {
-        super.onPostCreate(savedInstanceState)
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
         setContent {
             BooksgoogleTheme {
                 // A surface container using the 'background' color from the theme

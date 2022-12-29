@@ -14,6 +14,16 @@
         android:theme="@style/Theme.Booksgoogle"
         tools:targetApi="31">
         <activity
+            android:name=".ui.books.CompositeDisposableBookActivity"
+            android:exported="false"
+            android:label="@string/title_activity_book"
+            android:theme="@style/Theme.Booksgoogle" />
+        <activity
+            android:name=".ui.books.DisposableBookActivity"
+            android:exported="false"
+            android:label="@string/title_activity_book"
+            android:theme="@style/Theme.Booksgoogle" />
+        <activity
             android:name=".ui.books.BookActivity"
             android:exported="false"
             android:label="@string/title_activity_book"
