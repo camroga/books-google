@@ -21,6 +21,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.buildreams.books_google.ui.books.BookActivity
 import com.buildreams.books_google.ui.books.CompositeDisposableBookActivity
 import com.buildreams.books_google.ui.books.DisposableBookActivity
+import com.buildreams.books_google.ui.books.OperatorsActivity
 import com.buildreams.books_google.ui.theme.BooksgoogleTheme
 
 class MainActivity : ComponentActivity() {
@@ -80,6 +81,20 @@ class MainActivity : ComponentActivity() {
                                 )
                             }) {
                             Text(text = "Show composite disposable books")
+                        }
+                        Button(
+                            modifier = Modifier
+                                .wrapContentHeight()
+                                .wrapContentWidth(),
+                            onClick = {
+                                context.startActivity(
+                                    Intent(
+                                        context,
+                                        OperatorsActivity::class.java
+                                    )
+                                )
+                            }) {
+                            Text(text = "Operator books")
                         }
                     }
                 }
